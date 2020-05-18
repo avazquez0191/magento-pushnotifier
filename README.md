@@ -9,11 +9,11 @@ El servicio Cloud Messaging de Firebase brinda soporte para navegadores Edge, Fi
 # Proceso de instalación
 El módulo aun no cuenta con las configuraciones de Setup para ser instalado como una extensión de magento, de modo que el proceso de instalacion sera manual.
 
-1→ Contar con una aplicación magento instalada (configuración inicial, base de datos, ect...).  
-2→ Descargar o clonar el repositorio y copiar la carpeta magento del repositorio sobre la magento de tu aplicación, de modo que cada archivo (iniciando desde la raíz) tome su lugar.  
-3→ Ejecutar el archivo "script.sql" en la base de datos.  
+1. Contar con una aplicación magento instalada (configuración inicial, base de datos, ect...).
+1. Descargar o clonar el repositorio y copiar la carpeta magento del repositorio sobre la magento de tu aplicación, de modo que cada archivo (iniciando desde la raíz) tome su lugar.
+1. Ejecutar el archivo "script.sql" en la base de datos. 
 
-*Notas adicionales*  
+***Notas adicionales***  
 Si esta desplegando en local:  
   -Debe configurar la dirección base como localhost/HTTP y deshabilitar o limpiar la cache de magento.  
 Si esta desplegando en un dominio publico:  
