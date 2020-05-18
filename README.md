@@ -1,7 +1,7 @@
 # Módulo de Mensajes Push para Magento  
 ![Logo](/src/logo.png)  
 Es un módulo sencillo de magento para enviar/recibir notificaciones push usando el SDK de Firebase. Las notificaciones llegan al dispositivo del usuario una vez que cambia el estado de sus órdenes en la tienda.  
-*Compatibilidad [magento v1.9.4.5]*
+*Compatibilidad [magento v1.9.4.5][firebasejs v7.14.4]*
 
 # Entornos compatibles con el SDK de Firebase JavaScript
 El servicio Cloud Messaging de Firebase brinda soporte para navegadores Edge, Firefox y Chrome así como las extensiones de este último.
