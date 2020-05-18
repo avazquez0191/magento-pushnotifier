@@ -35,9 +35,9 @@ Es un desarrollo joven y con mucho potencial, aún resta mucho trabajo por delan
 Propuestas para futuras versiones:  
 -Identificar el dispositivo desde donde el cliente esta realizando la entrada a la aplicación.  
 -Actualmente se envian los mensajes a tantos dispositivos como tenga registrado el usuario, pero no se tienen en cuenta los tokens que estan deshabilitados y estos también se procesan, de ahi que se necesite un proceso de actualizaión de tokens.  
--Ampliar el soporte a versiones móbiles y plataformas IOS/MAC
--Crear "temas" de mensajes para agrupar los tokens de los clientes y enviar notificaciones bajo diversos criterios.
--Reorganizar estructura del módulo de forma que actúe como módulo independiente.
--Realizar pruebas unitarias.
--Crear instalador (SetUp).
+-Ampliar el soporte a versiones móbiles y plataformas IOS/MAC  
+-Crear "temas" de mensajes para agrupar los tokens de los clientes y enviar notificaciones bajo diversos criterios.  
+-Reorganizar estructura del módulo de forma que actúe como módulo independiente.  
+-Realizar pruebas unitarias.  
+-Crear instalador (SetUp).  
 
