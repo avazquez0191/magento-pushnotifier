@@ -1,5 +1,5 @@
 # Módulo de Notificaciones Push para Magento  
-![Logo](/src/logo.png)  
+![Logo](/src/images/logo.png)  
 Es un módulo sencillo de magento para enviar/recibir notificaciones push usando el SDK de Firebase. Las notificaciones llegan al dispositivo del usuario una vez que cambia el estado de sus órdenes en la tienda.  
 *Compatibilidad [magento v1.9.4.5][firebasejs v7.14.4]*
 
@@ -24,14 +24,14 @@ Listo!
 # Manual de uso
 1. El cliente debe hacer login en la aplicacion (Frontend).
 1. Se solicita permiso para mostrar las notificaciones.  
-![Logo](/src/opt_in_web.png)  
+![Logo](/src/images/opt_in_web.png)  
 1. Se solicita y registra el token respectivo del dispositivo y se almacena en la base de datos conjuntamente con el identificador del cliente.  
-![Logo](/src/token_gen_and_save.png)  
+![Logo](/src/images/token_gen_and_save.png)  
 1. Se crea una orden para el cliente en cuestion y se cambian sus diferentes estados a medida que se trabaja el mismo.
 1. Al cliente llegan dos tipo de notificaciones:
    1. Si tiene la aplicación en el navegador en primer plano se muestra una notificacion interna en la aplicación.
    1. Si no cuenta con el navegador o la aplicación activa llegará el mensaje via firebase-service-worker.  
-![Logo](/src/push_send.png)  
+![Logo](/src/images/push_send.png)  
 
 # Consideraciones
 Es un desarrollo joven y con mucho potencial, aún resta mucho trabajo por delante para lograr un resultado sólido.   

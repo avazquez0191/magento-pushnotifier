@@ -27,10 +27,10 @@ class MiTienda_PushNotifier_Model_Observer
         $curlParams = array(
           'to' => $firebase_token->getTokenId(),
           'notification' => array(
-            'title'    => 'Mitienda',
+            'title'    => 'Push Notifier',
             'body'   => "Uno de sus pedidos ha cambiado de estado a ({$orderStatus}).",
-            'icon'  => Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'logo-tiendamia.jpg',
-            'click_action'      => 'mitienda.com',
+            'icon'  => Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'logo-pn.png',
+            'click_action'      => Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB),
           )
         );
 
