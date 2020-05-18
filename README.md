@@ -1,4 +1,4 @@
-# pushnotifier
+# PushNotifier
 
 Es un modulo sencillo de magento para enviar/recibir notificaciones push usando la api de firebase.
 
