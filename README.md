@@ -1,4 +1,4 @@
-# PushNotifier  
+# Módulo de Mensajes Push para Magento  
 ![Logo](/src/logo.png)  
 Es un módulo sencillo de magento para enviar/recibir notificaciones push usando el SDK de Firebase. Las notificaciones llegan al dispositivo del usuario una vez que cambia el estado de sus órdenes en la tienda.  
 *Compatibilidad [magento v1.9.4.5]*
