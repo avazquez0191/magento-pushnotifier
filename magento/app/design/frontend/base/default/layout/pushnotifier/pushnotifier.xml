@@ -1,0 +1,7 @@
+<layout version="0.1.0">
+  <default>
+    <reference name="head">
+      <block type="mitienda_pushnotifier/pushnotifier" name="pushnotifier" template="pushnotifier/pushnotifier.phtml" />
+    </reference>
+  </default>
+</layout>
